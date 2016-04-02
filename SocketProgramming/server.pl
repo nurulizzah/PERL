@@ -1,7 +1,7 @@
 use strict;
 use Socket;
 
-my $port = shift ||7890;
+my $port = shift ||3535;
 my $proto = getprotobyname('tcp');
 my $server = "localhost";
 

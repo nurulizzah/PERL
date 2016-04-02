@@ -2,7 +2,7 @@ use strict;
 use Socket;
 
 my $host = shift || 'localhost';
-my $port = shift || '7890';
+my $port = shift || '3535';
 my $server = "localhost";
 
 socket(SOCKET, PF_INET, SOCK_STREAM,(getprotobyname('tcp'))[2])
